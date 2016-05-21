@@ -81,12 +81,6 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="227"/>
                                 <color key="backgroundColor" red="0.098039215690000001" green="0.74509803919999995" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bt5-vm-uSe">
-                                <rect key="frame" x="156" y="373" width="60" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -99,7 +93,6 @@
                     <navigationItem key="navigationItem" id="Ktt-ca-KGY"/>
                     <connections>
                         <outlet property="imageView" destination="Awv-y7-uEV" id="URK-BG-fvw"/>
-                        <outlet property="randomLabelOutlet" destination="Bt5-vm-uSe" id="rCA-UW-DTX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AK5-f4-cHH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -122,7 +115,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uc1-rL-oq6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="176" y="334"/>
+            <point key="canvasLocation" x="10" y="334"/>
         </scene>
     </scenes>
 </document>

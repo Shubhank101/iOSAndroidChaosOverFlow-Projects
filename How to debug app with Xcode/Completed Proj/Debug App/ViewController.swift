@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet weak var tableView: UITableView!
     
-    let appList = [AppModel]()
+    var appList = [AppModel]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,18 +24,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 do {
                     let anyObj = try NSJSONSerialization.JSONObjectWithData(data!, options: []) as! NSDictionary as NSDictionary!
                     let arr = anyObj["results"] as! NSArray
-                    for (index,gameDict) in arr.enumerate() {
+                    for gameDict in arr {
                         let model = AppModel()
                         model.name = gameDict["trackCensoredName"] as! String
-
-                        if (index < 10) {
-                            model.url = gameDict["artworkUrl512"] as? String                            
-                        }
+                        model.url = gameDict["artworkUrl512"] as! String
                         self.appList.append(model)
-
                     }
                     self.tableView.reloadData()
-                    
+                    // use anyObj here
+                    //print(anyObj["results"])
+                    //print(anyObj.allKeys)
                 } catch {
                     print("json error: \(error)")
                 }

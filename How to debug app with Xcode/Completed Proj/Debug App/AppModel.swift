@@ -10,5 +10,5 @@ import Foundation
 
 class AppModel {
     var name = ""
-    var url:String?
+    var url = ""
 }
