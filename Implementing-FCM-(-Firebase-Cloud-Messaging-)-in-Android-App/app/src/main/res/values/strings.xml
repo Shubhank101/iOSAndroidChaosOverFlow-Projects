@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FCM_Tutorial</string>
+    <string name="title_activity_default_activity">default_activity</string>
+</resources>
