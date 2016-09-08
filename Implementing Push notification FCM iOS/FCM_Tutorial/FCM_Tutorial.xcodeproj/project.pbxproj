@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531D77B81B32FA0F7AC36421 /* libPods-FCM_Tutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1E9376BC61BB201F1CA19A /* libPods-FCM_Tutorial.a */; };
+		992268231D532CB60075B174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992268221D532CB60075B174 /* AppDelegate.swift */; };
+		992268251D532CB60075B174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992268241D532CB60075B174 /* ViewController.swift */; };
+		992268281D532CB60075B174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992268261D532CB60075B174 /* Main.storyboard */; };
+		9922682A1D532CB60075B174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992268291D532CB60075B174 /* Assets.xcassets */; };
+		9922682D1D532CB60075B174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9922682B1D532CB60075B174 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B1E9376BC61BB201F1CA19A /* libPods-FCM_Tutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FCM_Tutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73FCCAD2B90ED73827AF4D22 /* Pods-FCM_Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCM_Tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-FCM_Tutorial/Pods-FCM_Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		9922681F1D532CB60075B174 /* FCM_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCM_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		992268221D532CB60075B174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		992268241D532CB60075B174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		992268271D532CB60075B174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		992268291D532CB60075B174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9922682C1D532CB60075B174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9922682E1D532CB60075B174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAE15281F0EDB714DCBF86E /* Pods-FCM_Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCM_Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FCM_Tutorial/Pods-FCM_Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9922681C1D532CB60075B174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531D77B81B32FA0F7AC36421 /* libPods-FCM_Tutorial.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1941E4C8B224E23A67B1AA1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E9376BC61BB201F1CA19A /* libPods-FCM_Tutorial.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		992268161D532CB60075B174 = {
+			isa = PBXGroup;
+			children = (
+				992268211D532CB60075B174 /* FCM_Tutorial */,
+				992268201D532CB60075B174 /* Products */,
+				FAA6C89C7EA4ED7D3086C1A0 /* Pods */,
+				1941E4C8B224E23A67B1AA1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		992268201D532CB60075B174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9922681F1D532CB60075B174 /* FCM_Tutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992268211D532CB60075B174 /* FCM_Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				992268221D532CB60075B174 /* AppDelegate.swift */,
+				992268241D532CB60075B174 /* ViewController.swift */,
+				992268261D532CB60075B174 /* Main.storyboard */,
+				992268291D532CB60075B174 /* Assets.xcassets */,
+				9922682B1D532CB60075B174 /* LaunchScreen.storyboard */,
+				9922682E1D532CB60075B174 /* Info.plist */,
+			);
+			path = FCM_Tutorial;
+			sourceTree = "<group>";
+		};
+		FAA6C89C7EA4ED7D3086C1A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE15281F0EDB714DCBF86E /* Pods-FCM_Tutorial.debug.xcconfig */,
+				73FCCAD2B90ED73827AF4D22 /* Pods-FCM_Tutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9922681E1D532CB60075B174 /* FCM_Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992268311D532CB60075B174 /* Build configuration list for PBXNativeTarget "FCM_Tutorial" */;
+			buildPhases = (
+				23C0CF475C3DC7FEB47EA1D4 /* Check Pods Manifest.lock */,
+				9922681B1D532CB60075B174 /* Sources */,
+				9922681C1D532CB60075B174 /* Frameworks */,
+				9922681D1D532CB60075B174 /* Resources */,
+				32D7B3718AB785051D935D08 /* Embed Pods Frameworks */,
+				1596E0BC81BEAD8C15BB0996 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCM_Tutorial;
+			productName = FCM_Tutorial;
+			productReference = 9922681F1D532CB60075B174 /* FCM_Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992268171D532CB60075B174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Shubhank;
+				TargetAttributes = {
+					9922681E1D532CB60075B174 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 9922681A1D532CB60075B174 /* Build configuration list for PBXProject "FCM_Tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 992268161D532CB60075B174;
+			productRefGroup = 992268201D532CB60075B174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9922681E1D532CB60075B174 /* FCM_Tutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9922681D1D532CB60075B174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9922682D1D532CB60075B174 /* LaunchScreen.storyboard in Resources */,
+				9922682A1D532CB60075B174 /* Assets.xcassets in Resources */,
+				992268281D532CB60075B174 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1596E0BC81BEAD8C15BB0996 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FCM_Tutorial/Pods-FCM_Tutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23C0CF475C3DC7FEB47EA1D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32D7B3718AB785051D935D08 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FCM_Tutorial/Pods-FCM_Tutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9922681B1D532CB60075B174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992268251D532CB60075B174 /* ViewController.swift in Sources */,
+				992268231D532CB60075B174 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		992268261D532CB60075B174 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992268271D532CB60075B174 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9922682B1D532CB60075B174 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9922682C1D532CB60075B174 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9922682F1D532CB60075B174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		992268301D532CB60075B174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		992268321D532CB60075B174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADAE15281F0EDB714DCBF86E /* Pods-FCM_Tutorial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FCM_Tutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubhank.FCM-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		992268331D532CB60075B174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FCCAD2B90ED73827AF4D22 /* Pods-FCM_Tutorial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FCM_Tutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shubhank.FCM-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9922681A1D532CB60075B174 /* Build configuration list for PBXProject "FCM_Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9922682F1D532CB60075B174 /* Debug */,
+				992268301D532CB60075B174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992268311D532CB60075B174 /* Build configuration list for PBXNativeTarget "FCM_Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992268321D532CB60075B174 /* Debug */,
+				992268331D532CB60075B174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992268171D532CB60075B174 /* Project object */;
+}

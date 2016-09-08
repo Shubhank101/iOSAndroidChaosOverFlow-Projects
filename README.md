@@ -4,3 +4,7 @@
 
 You need to add your own google-services.json file in the project to run it.
 
+
+#### Implementing Fcm ( Firebase Cloud Messaging ) In iOS App - Swift
+
+You need to add your own GoogleService-Info.plist file in the project to run it.
